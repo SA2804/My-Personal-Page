@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My personal Webpage </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="flex-container">
+      <div class="flex-items item-1">
+        <a href="index.html" >Shamim_Ahamed &#128578;</a> 
+      </div>
+      <div class="flex-items item-2">
+        <a href="myproj.html" target="_blank">My Projects</a>
+      </div>
+      <div class="flex-items item-3">
+        <a href="about.htm" target="_blank">About Me</a>
+      </div>
+      <div class="flex-items item-4">
+        <a href="socials.htm" target="_blank">Social Handle</a>
+      </div>
+    </div>
+  </nav>
+  <div class="pic_avatar desc">
+    <div id='pt'class="pictext">
+        move your cursor to the picture 
+    </div>
+    <div id='myava-1'class="myavatar">
+      <img src="anime-boy-avatar-vector.jpg" alt="Avatar" width="500vb">
+    </div>
+  </div>
+  <script>
+    document.getElementById('myava-1').addEventListener('mouseover',function fx(){
+      document.getElementById('pt').innerHTML='Heyy,<br> This is Shamim Ahamed ';
+      document.getElementById('pt').style.border='5px solid yellow';
+      document.getElementById('pt').style.background='lightcoral';
+      document.getElementById('pt').style.color='black';
+    })
+  </script>
+</body>
+</html>

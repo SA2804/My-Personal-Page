@@ -1,0 +1,67 @@
+body{
+    background-color:black;
+}
+table,th,td{
+    border: 2.5px solid blue;
+    border-collapse: collapse; /*to collapse the double borders*/
+    width: 25%;
+    height: 70px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 5px;
+    margin: 20px;
+    
+}
+tr:hover{
+    background-color: lightcoral;
+}
+th{
+    background-color: gold;
+}
+h1{
+    text-decoration: underline red;
+    text-align: center;
+    color: white;
+}
+.fcont-1{
+    display: flex;
+    margin: 20px;
+    font-size: 25px;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+
+}
+.fitem-1{
+    border: 2px solid white;
+    padding: 16px;
+    color: white;
+}
+.link-1{
+    align-self: center;
+    margin-left: 180px;
+    color: white;
+}
+.fcont-2{
+    display: flex;
+    margin: 20px;
+    font-size: 25px;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+.fitem-2{
+    border: 2px solid white;
+    padding: 16px;
+    margin-top: 150px;
+    color: white;
+}
+.link-2{
+    align-self: center;
+    margin-left: 180px;
+    margin-top: 150px;
+    color: white;
+}
+p{
+    color: white;
+    margin:20px;
+}
